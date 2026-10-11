@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "note": "Per-extractor domain lists. The plugin merges (low to high priority): this bundled file < repo-fetched copy < user-local override file < voe_domains option. Update domains here (or host this file in the repo / edit the local override) without touching any code.",
+  "domains": {
+    "voe": [
+      "voe.sx",
+      "voeunblock.com",
+      "voe-unblock.com",
+      "johnalwayssame.com",
+      "megankiddifference.com"
+    ],
+    "doodstream": [
+      "doodstream.com",
+      "dood.stream",
+      "dood.re",
+      "do7go.com",
+      "playmogo.com"
+    ],
+    "filemoon": [
+      "filemoon.to",
+      "filemoon.sx",
+      "filemoon.in"
+    ],
+    "megacloud": [
+      "megacloud.blog",
+      "megacloud.tv"
+    ],
+    "streamtape": [
+      "streamtape.com",
+      "streamtape.to",
+      "strtape.cloud",
+      "tapepops.com"
+    ],
+    "packer": [
+      "packer.news"
+    ],
+    "vidmoly": [
+      "vidmoly.to",
+      "vidmoly.me"
+    ],
+    "vidoza": [
+      "vidoza.net"
+    ],
+    "mp4upload": [
+      "mp4upload.com"
+    ],
+    "uqload": [
+      "uqload.com"
+    ],
+    "sibnet": [
+      "video.sibnet.ru"
+    ],
+    "earnvids": [
+      "earnvids.com"
+    ],
+    "sendvid": [
+      "sendvid.com"
+    ],
+    "videospk": [
+      "videospk.xyz"
+    ],
+    "bigwarp": [
+      "bigwarp.cc",
+      "bigwarp.art"
+    ],
+    "vk": [
+      "vk.com"
+    ],
+    "dailymotion": [
+      "dailymotion.com"
+    ],
+    "oneupload": [
+      "oneupload.com"
+    ],
+    "smoothpre": [
+      "smoothpre.xyz"
+    ],
+    "supervideo": [
+      "supervideo.cc"
+    ],
+    "uploadcx": [
+      "uploadcx.com"
+    ],
+    "streamup": [
+      "streamup.online"
+    ],
+    "lulustream": [
+      "lulustream.com"
+    ],
+    "savefiles": [
+      "savefiles.com"
+    ],
+    "fourshared": [
+      "4shared.com"
+    ],
+    "playerwish": [
+      "playerwish.com"
+    ],
+    "streamhg": [
+      "streamhg.com"
+    ],
+    "streamwish": [
+      "streamwish.to"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+yt-dlp-ge License
+
+Copyright (c) JMcrafter26
+All rights reserved.
+
+1. Grant
+--------
+The copyright holder grants you a personal, non-exclusive,
+non-transferable license to download, install, run, and modify this
+software for personal, non-commercial purposes.
+
+2. Verbatim redistribution
+--------------------------
+You may share unmodified copies of this software, provided that this
+license and all copyright notices remain intact and the copies are
+offered free of charge. Sharing modified versions is not permitted
+except with prior written permission from the copyright holder.
+
+3. Prohibited uses
+------------------
+Without prior written permission from the copyright holder, you may not:
+
+  a. use this software, in whole or in part, for any commercial purpose,
+     including operating a website, service, or product that generates
+     revenue (including advertising revenue) or otherwise supports a
+     business;
+
+  b. incorporate, bundle, embed, or combine this software, in whole or in
+     part, into any other software, product, service, website, or platform,
+     whether commercial or not. This includes download portals, scraping
+     services, and video conversion sites of any kind;
+
+  c. offer this software as a hosted service, or as part of one;
+
+  d. remove or alter any copyright notice or this license.
+
+4. Termination
+-------------
+Any violation of these terms automatically terminates the rights granted
+to you under this license.
+
+5. Disclaimer
+-------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. Scope
+--------
+This license covers only the code in the yt-dlp-ge repository (the
+extension itself). It does not cover the JavaScript extractor modules
+downloaded at runtime; those are governed by their own license, see the
+NOTICE file.

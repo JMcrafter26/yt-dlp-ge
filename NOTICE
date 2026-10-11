@@ -1,0 +1,25 @@
+NOTICE
+======
+
+1. This repository (yt-dlp-ge)
+------------------------------
+The custom license in the LICENSE file covers only the code in this
+repository: the yt-dlp bridge/plugin itself. Nothing else.
+
+2. Extractor modules (NOT covered by the MIT license)
+----------------------------------------------------
+This plugin ships no extractor modules. At runtime it downloads JavaScript
+extractor files from the global-extractor project
+(https://github.com/JMcrafter26/global-extractor) and executes them locally.
+
+Those files are NOT covered by this repository's MIT license. They are
+governed solely by the license of the global-extractor project
+(https://github.com/JMcrafter26/global-extractor/blob/main/LICENSE).
+
+Be aware of what that license currently says: it permits use exclusively
+within the Sora/Sulfur iOS application and prohibits use in any other
+software, product, service, or platform. Running these modules through this
+plugin therefore falls outside the permitted context of their current terms.
+It is your responsibility to review the latest version of that license and to
+obtain any necessary permission before using this plugin to execute those
+modules.

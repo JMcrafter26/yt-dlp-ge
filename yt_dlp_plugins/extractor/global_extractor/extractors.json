@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "repo": "https://github.com/JMcrafter26/global-extractor",
+  "description": "Static metadata for global-extractor JS bridges. 'working' reflects the upstream test table; broken extractors are only registered when force_broken is enabled.",
+  "extractors": {
+    "voe": {
+      "pattern": "voe[a-z-]*\\.[a-z]+|voe-unblock\\.com|johnalwayssame\\.com",
+      "working": true,
+      "author": "ShadeOfChaos",
+      "notes": "Pure JS deobfuscation (ROT13 + base64 + char shift). No network fetch needed."
+    },
+    "doodstream": {
+      "pattern": "dood[a-z]*\\.[a-z]+|doodstream\\.com|do7go\\.com|playmogo\\.com",
+      "working": true,
+      "author": "Cufiy",
+      "notes": "Fetches /pass_md5/ token URL via HTTP."
+    },
+    "filemoon": {
+      "pattern": "filemoon\\.to|filemoon\\.sx|filemoon\\.in",
+      "working": false,
+      "author": "Cufiy & Churly",
+      "notes": "Broken upstream."
+    },
+    "megacloud": {
+      "pattern": "megacloud\\.blog|megacloud\\.tv",
+      "working": false,
+      "author": "ShadeOfChaos",
+      "notes": "Broken upstream. Uses custom AES-GCM-ish decryption."
+    },
+    "streamtape": {
+      "pattern": "streamtape\\.[a-z]+|strtape\\.cloud|tapepops\\.com",
+      "working": true,
+      "author": "ShadeOfChaos",
+      "notes": "Races candidate URLs from the page."
+    },
+    "packer": {
+      "pattern": "packer\\.news",
+      "working": true,
+      "author": "Cufiy",
+      "notes": "Unpacks P.A.C.K.E.R. JS (unbaser bundled in the extractor)."
+    },
+    "vidmoly": {
+      "pattern": "vidmoly\\.to|vidmoly\\.me",
+      "working": true,
+      "author": "Ibro",
+      "notes": "Scrapes source tags / download links from the page."
+    },
+    "vidoza": {
+      "pattern": "vidoza\\.net",
+      "working": true,
+      "author": "Cufiy",
+      "notes": "Scrapes <source src> from the page."
+    },
+    "mp4upload": {
+      "pattern": "mp4upload\\.com",
+      "working": true,
+      "author": "Cufiy",
+      "notes": "Extracts the upload/embed stream URL."
+    },
+    "uqload": {
+      "pattern": "uqload\\.com",
+      "working": true,
+      "author": "scigward",
+      "notes": "Scrapes the video source from the page."
+    },
+    "sibnet": {
+      "pattern": "video\\.sibnet\\.ru",
+      "working": true,
+      "author": "scigward",
+      "notes": "Overrides yt-dlp's native SibnetIE when this plugin is installed."
+    },
+    "earnvids": {
+      "pattern": "earnvids\\.com",
+      "working": true,
+      "author": "50/50",
+      "notes": "Unpacks P.A.C.K.E.R. JS (unbaser bundled in the extractor)."
+    },
+    "sendvid": {
+      "pattern": "sendvid\\.com",
+      "working": true,
+      "author": "50/50",
+      "notes": "Scrapes the video source from the page."
+    },
+    "videospk": {
+      "pattern": "videospk\\.xyz",
+      "working": true,
+      "author": "50/50",
+      "notes": "Unpacks P.A.C.K.E.R. JS and scrapes the stream URL."
+    },
+    "bigwarp": {
+      "pattern": "bigwarp\\.[a-z]+",
+      "working": false,
+      "author": "Cufiy",
+      "notes": "Broken upstream."
+    },
+    "vk": {
+      "pattern": "vk\\.com",
+      "working": false,
+      "author": "scigward",
+      "notes": "Broken upstream. Only registered with force_broken; overrides yt-dlp's native VkIE."
+    },
+    "dailymotion": {
+      "pattern": "dailymotion\\.com",
+      "working": false,
+      "author": "50/50",
+      "notes": "Broken upstream. Only registered with force_broken; overrides yt-dlp's native DailymotionIE."
+    },
+    "oneupload": {
+      "pattern": "oneupload\\.com",
+      "working": false,
+      "author": "50/50",
+      "notes": "Broken upstream."
+    },
+    "smoothpre": {
+      "pattern": "smoothpre\\.xyz",
+      "working": false,
+      "author": "50/50",
+      "notes": "Broken upstream."
+    },
+    "supervideo": {
+      "pattern": "supervideo\\.cc",
+      "working": false,
+      "author": "50/50",
+      "notes": "Broken upstream."
+    },
+    "uploadcx": {
+      "pattern": "uploadcx\\.com",
+      "working": false,
+      "author": "50/50",
+      "notes": "Broken upstream."
+    },
+    "streamup": {
+      "pattern": "streamup\\.online",
+      "working": false,
+      "author": "Cufiy",
+      "notes": "Broken upstream."
+    },
+    "lulustream": {
+      "pattern": "lulustream\\.com",
+      "working": false,
+      "author": "Cufiy",
+      "notes": "Broken upstream."
+    },
+    "savefiles": {
+      "pattern": "savefiles\\.com",
+      "working": false,
+      "author": "Cufiy",
+      "notes": "Broken upstream."
+    },
+    "fourshared": {
+      "pattern": "4shared\\.com",
+      "working": false,
+      "author": "50/50",
+      "notes": "Not in the upstream test table; untested. Enable with force_broken."
+    },
+    "playerwish": {
+      "pattern": "playerwish\\.[a-z]+",
+      "working": false,
+      "author": "50/50",
+      "notes": "Not in the upstream test table; untested. Enable with force_broken. (Upstream function is named playwishExtractor.)"
+    },
+    "streamhg": {
+      "pattern": "streamhg\\.[a-z]+",
+      "working": false,
+      "author": "Cufiy",
+      "notes": "Not in the upstream test table; untested. Enable with force_broken."
+    },
+    "streamwish": {
+      "pattern": "streamwish\\.[a-z]+",
+      "working": false,
+      "author": "Ibro",
+      "notes": "Not in the upstream test table; untested. Enable with force_broken."
+    }
+  }
+}
